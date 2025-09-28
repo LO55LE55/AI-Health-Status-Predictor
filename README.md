@@ -6,7 +6,7 @@ An interactive AI tool that predicts patient health status from vital signs usin
 
 ## 📖 Overview  
 This project uses a **1D Convolutional Neural Network (CNN)** to analyze time-series data of patient vitals (temperature, heart rate, systolic and diastolic blood pressure).  
-It’s trained on a **synthetic dataset of 15,000 patients**, each with 288 readings (one every 10 minutes for 48 hours) across **14 different health profiles** — including hypertension, tachycardia, bradycardia, and combinations like hypertension-with-fever.
+It’s trained on a **synthetic dataset of 15,000 patients**, each with 288 readings (one every 10 minutes for 48 hours) across **14 different health profiles**, including hypertension, tachycardia, bradycardia, and combinations like hypertension-with-fever.
 
 The result is a model with **~93% accuracy**, designed to **prioritize recall** so that risky cases are less likely to be missed.  
 
